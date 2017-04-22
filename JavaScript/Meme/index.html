@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+  </br>
+  <head>
+	<title>Meme Generator</title>
+    <link rel="stylesheet" href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet" type='text/css'>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <img src="logo.png">
+        <h1>Meme Generator</h1>
+      </div>
+    </div>
+	</br>
+    <div class="main">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="meme thumbnail">
+              <img src="cat.jpg">
+              <h1 class="top-caption">U say something?</h1>
+              <h1 class="bottom-caption">I'm all ears</h1>
+            </div>
+          </div>
+		</br>
+          <div class="col-md-6">
+            
+            <div class="tool">
+              <h2 class="tool font meme"><center>Let's create a meme!</center></h2>
+              <form role="form">
+                <div class="form-group">
+                  <label>Image URL</label>
+                  <input id="image-url" type="text" class="form-control" value="Enter your URL here">
+                </div>
+                <div class="form-group">
+                  <label>Top text</label>
+                  <input id="top-text" type="text" class="form-control" value="Enter your top-text here">
+                </div>
+                <div class="form-group">
+                  <label>Bottom text</label>
+                  <input id="bottom-text" type="text" class="form-control" value="Enter your bottom-text here">
+                </div>
+              </form> 
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://s3.amazonaws.com/codecademy-content/projects/jquery.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
